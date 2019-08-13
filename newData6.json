@@ -1,0 +1,338 @@
+{
+    "Base": 
+    {
+        "m_GameObject": 
+        {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Enabled": 1,
+        "m_Script": 
+        {
+            "m_FileID": 0,
+            "m_PathID": 3728890420063090679
+        },
+        "m_Name": "Assassin4",
+        "Name": "Mayya",
+        "LongName": "Mayya al-Dabbaj",
+        "Gender": 1,
+        "View": 
+        {
+            "_mode": 1,
+            "_softReference": "502d993f766be9d4bbfc5337840c5ec8;136874",
+            "_customPackageName": "",
+            "_parentReference": "bde77d53e5bc8e04babab4b71f250730;11400000"
+        },
+        "GameplayPropPrefab": 
+        {
+            "_mode": 1,
+            "_softReference": "828102ebd7c53944197fd94f7c240d62;-1840476592",
+            "_customPackageName": "",
+            "_parentReference": "bde77d53e5bc8e04babab4b71f250730;11400000"
+        },
+        "StartingLevel": 1,
+        "StartingRank": 1,
+        "Stats": 
+        {
+            "Array": [
+                {"data": 
+                {
+                    "MinLevel": 1,
+                    "MaxLevel": 50,
+                    "BaseVitality": 
+                    {
+                        "BaseStat": 80,
+                        "PerLevelGain": 8
+                    },
+                    "BaseAttack": 
+                    {
+                        "BaseStat": 22.5,
+                        "PerLevelGain": 2.25
+                    },
+                    "BaseDefense": 
+                    {
+                        "BaseStat": 15,
+                        "PerLevelGain": 1.5
+                    },
+                    "BaseDetection": 
+                    {
+                        "BaseStat": 0,
+                        "PerLevelGain": 0
+                    },
+                    "BaseDodge": 
+                    {
+                        "BaseStat": 0.0700000003,
+                        "PerLevelGain": 0
+                    },
+                    "BaseMiss": 
+                    {
+                        "BaseStat": 0,
+                        "PerLevelGain": 0
+                    },
+                    "BaseVigilence": 
+                    {
+                        "BaseStat": 0,
+                        "PerLevelGain": 0
+                    },
+                    "BaseLethality": 
+                    {
+                        "BaseStat": 0,
+                        "PerLevelGain": 0
+                    },
+                    "BaseDexterity": 
+                    {
+                        "BaseStat": 36,
+                        "PerLevelGain": 3.5999999
+                    },
+                    "BaseAgility": 
+                    {
+                        "BaseStat": 37,
+                        "PerLevelGain": 3.70000005
+                    },
+                    "BaseLuck": 
+                    {
+                        "BaseStat": 0,
+                        "PerLevelGain": 0
+                    },
+                    "BaseCritChance": 
+                    {
+                        "BaseStat": 0.0700000003,
+                        "PerLevelGain": 0
+                    },
+                    "BaseCritDamage": 
+                    {
+                        "BaseStat": 1,
+                        "PerLevelGain": 0
+                    }
+                }}
+            ]
+        },
+        "RankProgression": 
+        {
+            "Array": [
+                {"data": 
+                {
+                    "DNA": 15,
+                    "PromoteTime": 900,
+                    "SoftCurrency": 200
+                }},
+                {"data": 
+                {
+                    "DNA": 30,
+                    "PromoteTime": 3600,
+                    "SoftCurrency": 1200
+                }},
+                {"data": 
+                {
+                    "DNA": 50,
+                    "PromoteTime": 14400,
+                    "SoftCurrency": 1600
+                }},
+                {"data": 
+                {
+                    "DNA": 85,
+                    "PromoteTime": 34200,
+                    "SoftCurrency": 3500
+                }},
+                {"data": 
+                {
+                    "DNA": 120,
+                    "PromoteTime": 86400,
+                    "SoftCurrency": 12000
+                }}
+            ]
+        },
+        "SkillsIds": 
+        {
+            "Array": [
+                {"data": "Skill143"},
+                {"data": "Skill106"},
+                {"data": "Skill3"},
+                {"data": "Skill88"},
+                {"data": "Skill117"},
+                {"data": "Skill2"},
+                {"data": "Skill71"},
+                {"data": "Skill233"},
+                {"data": "Skill232"}
+            ]
+        },
+        "Audio": 
+        {
+            "VO": "Female",
+            "Footsteps": "Bare_Feet",
+            "Foley": "Light"
+        },
+        "DefaultArmorId": "GearItem6",
+        "DefaultAccessoryId": "",
+        "DefaultWeaponId": "WeaponItem10",
+        "FightAccessory": 
+        {
+            "Weapon": 
+            {
+                "_mode": 0,
+                "_softReference": "",
+                "_customPackageName": "",
+                "_parentReference": ""
+            },
+            "Type": 0
+        },
+        "DefaultEnemyTypeId": "",
+        "WeaponsAllowed": 
+        {
+            "OneHandedSword": 0,
+            "Dagger": 1,
+            "Blunt": 0,
+            "Polearm": 0,
+            "TwoHandedSword": 0,
+            "Axe": 0,
+            "HiddenBlade": 0
+        },
+        "ArmorAllowed": 
+        {
+            "HeavyArmor": 0,
+            "MidArmor": 0,
+            "LightArmor": 1
+        },
+        "AccessoriesAllowed": 
+        {
+            "Belt": 1,
+            "Boots": 1,
+            "Pouch": 1
+        },
+        "AssassinationHandedness": 0,
+        "Portrait": 
+        {
+            "_mode": 0,
+            "_softReference": "7bb394bebbfd75e448f0e961aefbf225;21300000",
+            "_customPackageName": "",
+            "_parentReference": "bde77d53e5bc8e04babab4b71f250730;11400000"
+        },
+        "PortraitLocked": 
+        {
+            "_mode": 0,
+            "_softReference": "1cd285b4b8c2a394085f4553ce11c29e;21300000",
+            "_customPackageName": "",
+            "_parentReference": "bde77d53e5bc8e04babab4b71f250730;11400000"
+        },
+        "Rarity": 1,
+        "_class": 1,
+        "_keyRoleAffinities": 
+        {
+            "_serializedMainKeyRole": "KeyRole002",
+            "_serializedKeyRoleAffinities": 
+            {
+                "Array": [
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole000",
+                        "_affinity": 0
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole001",
+                        "_affinity": 0
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole002",
+                        "_affinity": 1
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole003",
+                        "_affinity": 0
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole004",
+                        "_affinity": 0.200000003
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole005",
+                        "_affinity": 0
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole006",
+                        "_affinity": 0
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole007",
+                        "_affinity": 0.100000001
+                    }},
+                    {"data": 
+                    {
+                        "_keyRoleID": "KeyRole008",
+                        "_affinity": 0.100000001
+                    }}
+                ]
+            }
+        },
+        "Roles": 
+        {
+            "Array": []
+        },
+        "RoleTextKeys": 
+        {
+            "Array": [
+                {"data": "ROLES_MAYYA_ROLE_01_DESCRIPTION"},
+                {"data": "ROLES_MAYYA_ROLE_02_DESCRIPTION"},
+                {"data": "ROLES_MAYYA_ROLE_03_DESCRIPTION"}
+            ]
+        },
+        "PerksIds": 
+        {
+            "Array": [
+                {"data": "Perk22"}
+            ]
+        },
+        "VillaStats": 
+        {
+            "Array": [
+                {"data": 
+                {
+                    "MinLevel": 1,
+                    "MaxLevel": 50,
+                    "BaseCrafting": 
+                    {
+                        "BaseStat": 3,
+                        "PerLevelGain": 0.300000012
+                    },
+                    "BaseProduction": 
+                    {
+                        "BaseStat": 16,
+                        "PerLevelGain": 1.60000002
+                    },
+                    "BaseLearning": 
+                    {
+                        "BaseStat": 11,
+                        "PerLevelGain": 1.10000002
+                    }
+                }}
+            ]
+        },
+        "IsRecruitable": 1,
+        "IsUnlockedByDefault": 0,
+        "IsSecret": 0,
+        "IsInMetaEvent": 0,
+        "RelatedTLEData": 
+        {
+            "MainVisualId": "",
+            "PointsSpriteId": "",
+            "PointsBigSpriteId": "",
+            "ColorPaletteId": "",
+            "HeaderLocKey": "",
+            "NameLocKey": "",
+            "TimePeriodLocKey": "",
+            "LoreLocKey": ""
+        },
+        "_recruitTutorialStep": ""
+    }
+}ey": "",
+            "LoreLocKey": ""
+        },
+        "_recruitTutorialStep": ""
+    }
+}

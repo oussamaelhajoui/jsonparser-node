@@ -1,0 +1,198 @@
+{
+    "Name": "Aguilar",
+    "m_Name": "Aguilar",
+    "LongName": "Nerha",
+    "Gender": 0,
+    "startingRank": 1,
+    "startingLevel": 1,
+    "DefaultArmorId": "GearItem6",
+    "DefaultAccessoryId": "GearItem6",
+    "DefaultWeaponId": "WeaponItem4",
+    "Rarity": 1,
+    "_class": 1,
+    "IsRecruitable": 1,
+    "IsUnlockedByDefault": 0,
+    "IsSecret": 0,
+    "IsInMetaEvent": 0,
+    "VillaStats": {
+        "0": {
+            "MinLevel": 1,
+            "MaxLevel": 50,
+            "BaseCrafting": {
+                "BaseStat": 12,
+                "PerLevelGain": 1.20000005
+            },
+            "BaseProduction": {
+                "BaseStat": 10,
+                "PerLevelGain": 1
+            },
+            "BaseLearning": {
+                "BaseStat": 18,
+                "PerLevelGain": 1.79999995
+            }
+        }
+    },
+    "RankProgression": {
+        "0": {
+            "DNA": 15,
+            "PromoteTime": 900,
+            "SoftCurrency": 200
+        },
+        "1": {
+            "DNA": 30,
+            "PromoteTime": 3600,
+            "SoftCurrency": 1200
+        },
+        "2": {
+            "DNA": 50,
+            "PromoteTime": 14400,
+            "SoftCurrency": 1600
+        },
+        "3": {
+            "DNA": 85,
+            "PromoteTime": 34200,
+            "SoftCurrency": 3500
+        },
+        "4": {
+            "DNA": 120,
+            "PromoteTime": 86400,
+            "SoftCurrency": 12000
+        }
+    },
+    "RoleAffinities": {
+        "_serializedMainKeyRole": "KeyRole000",
+        "_serializedKeyRoleAffinities": [
+            {
+                "_keyRoleID": "KeyRole000",
+                "_affinity": 0.699999988
+            },
+            {
+                "_keyRoleID": "KeyRole001",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole002",
+                "_affinity": 0.550000012
+            },
+            {
+                "_keyRoleID": "KeyRole003",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole004",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole005",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole006",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole007",
+                "_affinity": 0.5
+            },
+            {
+                "_keyRoleID": "KeyRole008",
+                "_affinity": 0.0500000007
+            }
+        ]
+    },
+    "AccessoriesAllowed": {
+        "Belt": 1,
+        "Boots": 1,
+        "Pouch": 1
+    },
+    "ArmorAllowed": {
+        "HeavyArmor": 0,
+        "MidArmor": 0,
+        "LightArmor": 1
+    },
+    "WeaponsAllowed": {
+        "OneHandedSword": 1,
+        "Dagger": 0,
+        "Blunt": 0,
+        "Polearm": 0,
+        "TwoHandedSword": 0,
+        "Axe": 0,
+        "HiddenBlade": 0
+    },
+    "stats": {
+        "MinLevel": 1,
+        "MaxLevel": 50,
+        "BaseVitality": {
+            "BaseStat": 90,
+            "PerLevelGain": 9
+        },
+        "BaseAttack": {
+            "BaseStat": 30,
+            "PerLevelGain": 3
+        },
+        "BaseDefense": {
+            "BaseStat": 20,
+            "PerLevelGain": 2
+        },
+        "BaseDetection": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseDodge": {
+            "BaseStat": 0.0500000007,
+            "PerLevelGain": 0
+        },
+        "BaseMiss": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseVigilence": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseLethality": {
+            "BaseStat": 30,
+            "PerLevelGain": 3
+        },
+        "BaseDexterity": {
+            "BaseStat": 10.5,
+            "PerLevelGain": 1.04999995
+        },
+        "BaseAgility": {
+            "BaseStat": 30,
+            "PerLevelGain": 3
+        },
+        "BaseLuck": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseCritChance": {
+            "BaseStat": 0.0500000007,
+            "PerLevelGain": 0
+        },
+        "BaseCritDamage": {
+            "BaseStat": 1,
+            "PerLevelGain": 0
+        }
+    },
+    "SkillsIds": {
+        "0": "Skill46",
+        "1": "Skill45",
+        "2": "Skill43",
+        "3": "Skill17",
+        "4": "Skill109",
+        "5": "Skill3",
+        "6": "Skill88",
+        "7": "Skill87",
+        "8": "Skill233",
+        "9": "Skill232"
+    },
+    "PerksIds": {
+        "0": "Perk18"
+    },
+    "RoleTextKeys": {
+        "0": "ROLES_AGUILAR_ROLE_01_DESCRIPTION",
+        "1": "ROLES_AGUILAR_ROLE_02_DESCRIPTION",
+        "2": "ROLES_AGUILAR_ROLE_03_DESCRIPTION"
+    }
+}

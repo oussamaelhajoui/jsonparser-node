@@ -1,0 +1,200 @@
+{
+    "Name": "Ezio",
+    "m_Name": "Ezio",
+    "LongName": "da Firenze",
+    "Gender": 0,
+    "startingRank": 1,
+    "startingLevel": 1,
+    "DefaultArmorId": "GearItem7",
+    "DefaultAccessoryId": "GearItem7",
+    "DefaultWeaponId": "WeaponItem6",
+    "Rarity": 3,
+    "_class": 1,
+    "IsRecruitable": 1,
+    "IsUnlockedByDefault": 0,
+    "IsSecret": 0,
+    "IsInMetaEvent": 0,
+    "VillaStats": {
+        "0": {
+            "MinLevel": 1,
+            "MaxLevel": 50,
+            "BaseCrafting": {
+                "BaseStat": 17,
+                "PerLevelGain": 1.70000005
+            },
+            "BaseProduction": {
+                "BaseStat": 12,
+                "PerLevelGain": 1.20000005
+            },
+            "BaseLearning": {
+                "BaseStat": 21,
+                "PerLevelGain": 2.0999999
+            }
+        }
+    },
+    "RankProgression": {
+        "0": {
+            "DNA": 25,
+            "PromoteTime": 900,
+            "SoftCurrency": 800
+        },
+        "1": {
+            "DNA": 40,
+            "PromoteTime": 3600,
+            "SoftCurrency": 2500
+        },
+        "2": {
+            "DNA": 60,
+            "PromoteTime": 14400,
+            "SoftCurrency": 4000
+        },
+        "3": {
+            "DNA": 95,
+            "PromoteTime": 34200,
+            "SoftCurrency": 7500
+        },
+        "4": {
+            "DNA": 130,
+            "PromoteTime": 86400,
+            "SoftCurrency": 20000
+        }
+    },
+    "RoleAffinities": {
+        "_serializedMainKeyRole": "KeyRole000",
+        "_serializedKeyRoleAffinities": [
+            {
+                "_keyRoleID": "KeyRole000",
+                "_affinity": 1
+            },
+            {
+                "_keyRoleID": "KeyRole001",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole002",
+                "_affinity": 0.899999976
+            },
+            {
+                "_keyRoleID": "KeyRole003",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole004",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole005",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole006",
+                "_affinity": 0
+            },
+            {
+                "_keyRoleID": "KeyRole007",
+                "_affinity": 0.75
+            },
+            {
+                "_keyRoleID": "KeyRole008",
+                "_affinity": 0.25
+            }
+        ]
+    },
+    "AccessoriesAllowed": {
+        "Belt": 1,
+        "Boots": 1,
+        "Pouch": 1
+    },
+    "ArmorAllowed": {
+        "HeavyArmor": 0,
+        "MidArmor": 1,
+        "LightArmor": 0
+    },
+    "WeaponsAllowed": {
+        "OneHandedSword": 0,
+        "Dagger": 0,
+        "Blunt": 0,
+        "Polearm": 0,
+        "TwoHandedSword": 0,
+        "Axe": 0,
+        "HiddenBlade": 1
+    },
+    "stats": {
+        "MinLevel": 1,
+        "MaxLevel": 50,
+        "BaseVitality": {
+            "BaseStat": 110,
+            "PerLevelGain": 11
+        },
+        "BaseAttack": {
+            "BaseStat": 34,
+            "PerLevelGain": 3.4000001
+        },
+        "BaseDefense": {
+            "BaseStat": 24,
+            "PerLevelGain": 2.4000001
+        },
+        "BaseDetection": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseDodge": {
+            "BaseStat": 0.0500000007,
+            "PerLevelGain": 0
+        },
+        "BaseMiss": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseVigilence": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseLethality": {
+            "BaseStat": 40,
+            "PerLevelGain": 4
+        },
+        "BaseDexterity": {
+            "BaseStat": 9,
+            "PerLevelGain": 0.899999976
+        },
+        "BaseAgility": {
+            "BaseStat": 34,
+            "PerLevelGain": 3.4000001
+        },
+        "BaseLuck": {
+            "BaseStat": 0,
+            "PerLevelGain": 0
+        },
+        "BaseCritChance": {
+            "BaseStat": 0.0500000007,
+            "PerLevelGain": 0
+        },
+        "BaseCritDamage": {
+            "BaseStat": 1,
+            "PerLevelGain": 0
+        }
+    },
+    "SkillsIds": {
+        "0": "Skill31",
+        "1": "Skill92",
+        "2": "Skill69",
+        "3": "Skill153",
+        "4": "Skill61",
+        "5": "Skill52",
+        "6": "Skill292",
+        "7": "Skill3",
+        "8": "Skill88",
+        "9": "Skill87",
+        "10": "Skill233",
+        "11": "Skill232"
+    },
+    "PerksIds": {
+        "0": "Perk20"
+    },
+    "RoleTextKeys": {
+        "0": "ROLES_EZIO_ROLE_01_DESCRIPTION",
+        "1": "ROLES_EZIO_ROLE_02_DESCRIPTION",
+        "2": "ROLES_EZIO_ROLE_03_DESCRIPTION"
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 3728890420063090679
+        },
+        "1 string m_Name": "Assassin2",
+        "1 string Name": "Máximo",
+        "1 string LongName": "Máximo Barrosa",
+        "0 int Gender": 0,
+        "0 SoftReference View": 
+        {
+            "0 int _mode": 1,
+            "1 string _softReference": "3490dc06891ade2499124ef10d3f2d7c;136874",
+            "1 string _customPackageName": "",
+            "1 string _parentReference": "bf828709a9ee78145a310b4f7db740a8;11400000"
+        },
+        "0 SoftReference GameplayPropPrefab": 
+        {
+            "0 int _mode": 1,
+            "1 string _softReference": "93f55e5939a414c45ae29c3b40cd06b9;-1526467784",
+            "1 string _customPackageName": "",
+            "1 string _parentReference": "bf828709a9ee78145a310b4f7db740a8;11400000"
+        },
+        "0 int StartingLevel": 1,
+        "0 int StartingRank": 1,
+        "0 FloatProgressiveStatLevelGroup Stats": 
+        {
+            "0 Array Array": [
+                {"0 FloatProgressiveStatLevelGroup data": 
+                {
+                    "0 int MinLevel": 1,
+                    "0 int MaxLevel": 50,
+                    "0 FloatProgressiveStat BaseVitality": 
+                    {
+                        "0 float BaseStat": 110,
+                        "0 float PerLevelGain": 11
+                    },
+                    "0 FloatProgressiveStat BaseAttack": 
+                    {
+                        "0 float BaseStat": 30,
+                        "0 float PerLevelGain": 3
+                    },
+                    "0 FloatProgressiveStat BaseDefense": 
+                    {
+                        "0 float BaseStat": 26,
+                        "0 float PerLevelGain": 2.5999999
+                    },
+                    "0 FloatProgressiveStat BaseDetection": 
+                    {
+                        "0 float BaseStat": 0,
+                        "0 float PerLevelGain": 0
+                    },
+                    "0 FloatProgressiveStat BaseDodge": 
+                    {
+                        "0 float BaseStat": 0.0500000007,
+                        "0 float PerLevelGain": 0
+                    },
+                    "0 FloatProgressiveStat BaseMiss": 
+                    {
+                        "0 float BaseStat": 0,
+                        "0 float PerLevelGain": 0
+                    },
+                    "0 FloatProgressiveStat BaseVigilence": 
+                    {
+                        "0 float BaseStat": 0,
+                        "0 float PerLevelGain": 0
+                    },
+                    "0 FloatProgressiveStat BaseLethality": 
+                    {
+                        "0 float BaseStat": 28.5,
+                        "0 float PerLevelGain": 2.8499999
+                    },
+                    "0 FloatProgressiveStat BaseDexterity": 
+                    {
+                        "0 float BaseStat": 28.5,
+                        "0 float PerLevelGain": 2.8499999
+                    },
+                    "0 FloatProgressiveStat BaseAgility": 
+                    {
+                        "0 float BaseStat": 25.5,
+                        "0 float PerLevelGain": 2.54999995
+                    },
+                    "0 FloatProgressiveStat BaseLuck": 
+                    {
+                        "0 float BaseStat": 0,
+                        "0 float PerLevelGain": 0
+                    },
+                    "0 FloatProgressiveStat BaseCritChance": 
+                    {
+                        "0 float BaseStat": 0.0500000007,
+                        "0 float PerLevelGain": 0
+                    },
+                    "0 FloatProgressiveStat BaseCritDamage": 
+                    {
+                        "0 float BaseStat": 1,
+                        "0 float PerLevelGain": 0
+                    }
+                }}
+            ]
+        },
+        "0 RankProgression RankProgression": 
+        {
+            "0 Array Array": [
+                {"0 RankProgression data": 
+                {
+                    "0 int DNA": 10,
+                    "0 float PromoteTime": 900,
+                    "0 int SoftCurrency": 100
+                }},
+                {"0 RankProgression data": 
+                {
+                    "0 int DNA": 25,
+                    "0 float PromoteTime": 3600,
+                    "0 int SoftCurrency": 750
+                }},
+                {"0 RankProgression data": 
+                {
+                    "0 int DNA": 45,
+                    "0 float PromoteTime": 14400,
+                    "0 int SoftCurrency": 1200
+                }},
+                {"0 RankProgression data": 
+                {
+                    "0 int DNA": 80,
+                    "0 float PromoteTime": 34200,
+                    "0 int SoftCurrency": 2500
+                }},
+                {"0 RankProgression data": 
+                {
+                    "0 int DNA": 115,
+                    "0 float PromoteTime": 86400,
+                    "0 int SoftCurrency": 8000
+                }}
+            ]
+        },
+        "0 vector SkillsIds": 
+        {
+            "1 Array Array": [
+                {"1 string data": "Skill39"},
+                {"1 string data": "Skill53"},
+                {"1 string data": "Skill87"},
+                {"1 string data": "Skill158"}
+            ]
+        },
+        "0 CharacterAudio Audio": 
+        {
+            "1 string VO": "Male2",
+            "1 string Footsteps": "Shoes_On",
+            "1 string Foley": "Light"
+        },
+        "1 string DefaultArmorId": "GearItem7",
+        "1 string DefaultAccessoryId": "",
+        "1 string DefaultWeaponId": "WeaponItem6",
+        "0 CombatAccessory FightAccessory": 
+        {
+            "0 SoftReference Weapon": 
+            {
+                "0 int _mode": 0,
+                "1 string _softReference": "",
+                "1 string _customPackageName": "",
+                "1 string _parentReference": ""
+            },
+            "0 int Type": 0
+        },
+        "1 string DefaultEnemyTypeId": "",
+        "0 WeaponSubtypesAllowed WeaponsAllowed": 
+        {
+            "1 UInt8 OneHandedSword": 0,
+            "1 UInt8 Dagger": 0,
+            "1 UInt8 Blunt": 0,
+            "1 UInt8 Polearm": 0,
+            "1 UInt8 TwoHandedSword": 0,
+            "1 UInt8 Axe": 0,
+            "1 UInt8 HiddenBlade": 1
+        },
+        "0 ArmorSubtypesAllowed ArmorAllowed": 
+        {
+            "1 UInt8 HeavyArmor": 0,
+            "1 UInt8 MidArmor": 1,
+            "1 UInt8 LightArmor": 0
+        },
+        "0 AccessorySubtypesAllowed AccessoriesAllowed": 
+        {
+            "1 UInt8 Belt": 1,
+            "1 UInt8 Boots": 1,
+            "1 UInt8 Pouch": 1
+        },
+        "0 int AssassinationHandedness": 0,
+        "0 SoftReference Portrait": 
+        {
+            "0 int _mode": 0,
+            "1 string _softReference": "6fddacf91fc8b81438627690c024142e;21300000",
+            "1 string _customPackageName": "",
+            "1 string _parentReference": "bf828709a9ee78145a310b4f7db740a8;11400000"
+        },
+        "0 SoftReference PortraitLocked": 
+        {
+            "0 int _mode": 0,
+            "1 string _softReference": "f93eb9d52a24f1d4fb01ef36ad48edfa;21300000",
+            "1 string _customPackageName": "",
+            "1 string _parentReference": "bf828709a9ee78145a310b4f7db740a8;11400000"
+        },
+        "0 int Rarity": 0,
+        "0 int _class": 1,
+        "0 CharacterKeyRoleAffinities _keyRoleAffinities": 
+        {
+            "1 string _serializedMainKeyRole": "KeyRole001",
+            "0 KeyRoleAffinity _serializedKeyRoleAffinities": 
+            {
+                "0 Array Array": [
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole000",
+                        "0 float _affinity": 0.5
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole001",
+                        "0 float _affinity": 0.699999988
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole002",
+                        "0 float _affinity": 0.400000006
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole003",
+                        "0 float _affinity": 0
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole004",
+                        "0 float _affinity": 0
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole005",
+                        "0 float _affinity": 0
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole006",
+                        "0 float _affinity": 0
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole007",
+                        "0 float _affinity": 0.100000001
+                    }},
+                    {"0 KeyRoleAffinity data": 
+                    {
+                        "1 string _keyRoleID": "KeyRole008",
+                        "0 float _affinity": 0.0500000007
+                    }}
+                ]
+            }
+        },
+        "0 vector Roles": 
+        {
+            "1 Array Array": []
+        },
+        "0 vector RoleTextKeys": 
+        {
+            "1 Array Array": [
+                {"1 string data": "ROLES_MAXIMO_ROLE_01_DESCRIPTION"},
+                {"1 string data": "ROLES_MAXIMO_ROLE_02_DESCRIPTION"},
+                {"1 string data": "ROLES_MAXIMO_ROLE_03_DESCRIPTION"}
+            ]
+        },
+        "0 vector PerksIds": 
+        {
+            "1 Array Array": []
+        },
+        "0 FloatProgressiveVillaStatLevelGroup VillaStats": 
+        {
+            "0 Array Array": [
+                {"0 FloatProgressiveVillaStatLevelGroup data": 
+                {
+                    "0 int MinLevel": 1,
+                    "0 int MaxLevel": 50,
+                    "0 FloatProgressiveStat BaseCrafting": 
+                    {
+                        "0 float BaseStat": 8,
+                        "0 float PerLevelGain": 0.800000012
+                    },
+                    "0 FloatProgressiveStat BaseProduction": 
+                    {
+                        "0 float BaseStat": 7,
+                        "0 float PerLevelGain": 0.699999988
+                    },
+                    "0 FloatProgressiveStat BaseLearning": 
+                    {
+                        "0 float BaseStat": 10,
+                        "0 float PerLevelGain": 1
+                    }
+                }}
+            ]
+        },
+        "1 UInt8 IsRecruitable": 1,
+        "1 UInt8 IsUnlockedByDefault": 0,
+        "1 UInt8 IsSecret": 0,
+        "1 UInt8 IsInMetaEvent": 0,
+        "0 PlaceholderScenarioData RelatedTLEData": 
+        {
+            "1 string MainVisualId": "",
+            "1 string PointsSpriteId": "",
+            "1 string PointsBigSpriteId": "",
+            "1 string ColorPaletteId": "",
+            "1 string HeaderLocKey": "",
+            "1 string NameLocKey": "",
+            "1 string TimePeriodLocKey": "",
+            "1 string LoreLocKey": ""
+        },
+        "1 string _recruitTutorialStep": "366"
+    }
+}
